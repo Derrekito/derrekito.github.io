@@ -5,6 +5,7 @@ University of Texas, El Paso - Bachelor of Science in Electrical Engineering
 ### Software
 - GNU/Linux (strong bias toward GNU/Slackware)
 - LaTeX
+- Org-Mode
 - Microsoft Office
 - Blender 2.79 (recently migratedto 2.8)
 - Eagle
