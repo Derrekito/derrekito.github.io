@@ -1,5 +1,5 @@
 ## About Derrekito
-I've come to realize that I have developed an inordinate number of skills and experience on my own over the years. I've decided to attempt to itemize a list of such things in some capacity. I hope to spend some time sifting through stacks of old hard drives for long forgotten projects I've worked on using some of the tools listed below. 
+I've come to realize that I have developed an inordinate number of technical skills and experience on my own over the years. I've decided to attempt to itemize a list of such things in some capacity. I've begun sifting through stacks of old hard drives for long forgotten projects I've worked on using some of the tools listed below. Such works may soon be published and made available to the community.
 
 ## EDUCATION
 University of Texas, El Paso - Bachelor of Science in Electrical Engineering
@@ -38,7 +38,7 @@ University of Texas, El Paso - Bachelor of Science in Electrical Engineering
 - Emacs Lisp
 - JAVA
 - JavaScript
-- Python 2.7,3.x
+- Python 2.7, 3.x
 - Julia
 ### Hardware Description Languages (HDL)
 - Verilog
