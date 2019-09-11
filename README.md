@@ -29,6 +29,7 @@ University of Texas, El Paso - Bachelor of Science in Electrical Engineering
 - Assembly
 - ANSI C
 - BASH
+- Emacs Lisp
 - JAVA
 - JavaScript
 - Python 2.7,3.x
