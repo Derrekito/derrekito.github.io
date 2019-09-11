@@ -1,5 +1,5 @@
 ## About Derrekito
-I've come to realize that I have developed an inordinate number of skills and experience on my own over the years. I've decided to attempt to itemize a list of such things in some capacity. I hope to spend some time sifting through stacks of old hard drives for long forgotten projects (finished or otherwise) I've worked on using some of the tools listed below.
+I've come to realize that I have developed an inordinate number of skills and experience on my own over the years. I've decided to attempt to itemize a list of such things in some capacity. I hope to spend some time sifting through stacks of old hard drives for long forgotten projects I've worked on using some of the tools listed below. 
 
 ## EDUCATION
 University of Texas, El Paso - Bachelor of Science in Electrical Engineering
