@@ -68,6 +68,8 @@ University of Texas, El Paso - Bachelor of Science in Electrical Engineering
 - Windows Server 08/12
 - Backtrack/Kali
 - Ubuntu/Mint
+- Open DOS
+- Windows 95, 98, 2000, ME, XP, Longhorn, 7, 10
 
 ### Debuggers
 - GDB
