@@ -40,6 +40,7 @@ University of Texas, El Paso - Bachelor of Science in Electrical Engineering
 - JavaScript
 - Python 2.7, 3.x
 - Julia
+
 ### Hardware Description Languages (HDL)
 - Verilog
 - VHDL
