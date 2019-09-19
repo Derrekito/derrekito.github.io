@@ -101,4 +101,4 @@ University of Texas, El Paso - Bachelor of Science in Electrical Engineering
 
 ## Social Links
 - [Github](https://github.com/Derrekito)
-- [Codepen](https://codepen.com/Derrekito)
+- [Codepen](https://codepen.io/Derrekito)
