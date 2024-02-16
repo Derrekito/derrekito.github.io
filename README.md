@@ -1,104 +1,33 @@
-## About Derrekito
-I've come to realize that I have developed an inordinate number of technical skills and experience on my own over the years. I've decided to attempt to itemize a list of such things in some capacity. I've begun sifting through stacks of old hard drives for long forgotten projects I've worked on using some of the tools listed below. Such works may soon be published and made available to the community.
+# Welcome to My GitHub!
 
-## EDUCATION
-University of Texas, El Paso - Bachelor of Science in Electrical Engineering
+## 👋 Introduction
+Hello there! I'm [Your Name], a [Your Job Title/Student/Enthusiast] with a passion for technology and building things that make a difference. Exploring new technologies and applying them to solve real-world problems is what I love to do.
 
-## Technical Skills
+## 💻 Technologies and Skills
+- **Languages**: Python, JavaScript, Java (add or remove as per your expertise)
+- **Frameworks/Tools**: React, Node.js, Django, Docker, Git (add or remove as per your expertise)
+- **Areas of Interest**: Web Development, Data Science, Open Source Contribution (customize as needed)
 
-### Software
-- GNU/Linux (strong bias toward GNU/Slackware)
-- LaTeX, MiKTeX
-- Org-Mode
-- Microsoft Office
-- Blender 2.79, 2.8
-- Eagle
-- OrCAD Pspice
-- Proteus
-- Quartus II
-- SketchUp
-- Android Studio
-- Eclipse
-- Emacs
-- GNU C Compiler
-- IntelliJ IDEA
-- MonoDevelop
-- AsmIDE
-- Jupyter (kernels: IPython, IJulia)
-- Matlab
-- SciPy, matplotlib, pandas, IPython, NumPy
-- ModelSIM
-- LT Spice
-- Vivado (Xilinx FPGA programmer)
+## 🚀 Projects
+- **Project 1**: A brief description of what it does and the technologies used.
+- **Project 2**: A brief description of what it does and the technologies used.
+- (Feel free to add more or provide links to your repositories)
 
-### Programming Languages
-- Assembly
-- ANSI C
-- BASH
-- Emacs Lisp
-- JAVA
-- JavaScript
-- Python 2.7, 3.x
-- Julia
+## 🤝 Collaboration
+I'm always open to collaborating on projects, especially those aimed at solving real-world problems or contributing to the open-source community. Feel free to reach out if you're interested in working together.
 
-### Hardware Description Languages (HDL)
-- Verilog
-- VHDL
+## 📫 How to Reach Me
+- GitHub: [Your GitHub Username]
+- LinkedIn: [Your LinkedIn Profile]
+- Email: [Your Email Address]
+- (Optional) Personal Website: [Your Website]
 
-### Hardware
-- PIC16 and PIC32
-- Dragon 12 Development Board for the Motorola HCS12
-- Arduino
-- Raspberry PI
-- Artix-7 35T Arty FPGA Evaluation Kit
-- Altera Cyclone V DE1 Development Kit
+## 🔭 Future Goals
+I'm currently focusing on [learning a new technology/improving a specific skill/working on a particular project]. I'm also looking forward to contributing more to open-source projects and collaborating with fellow developers on innovative solutions.
 
-### IT Hardware/Software
-- Windows RDP
-- Dell iDRAC
-- MongoDB
-- Docker
-- Active Directory
-- CISCO Meraki MX64
-- Truecrypt/Veracrypt, LUKS
-- TightVNC, RealVNC
+## ✨ A Bit About Me
+Outside of coding, I enjoy [Your Hobbies or Interests].
 
-### OS Distributions
-- Knoppix
-- GNU/Slackware
-- Windows Server 08/12
-- Backtrack/Kali
-- Ubuntu/Mint
-- Open DOS
-- Windows 95, 98, 2000, ME, XP, Longhorn, 7, 10
+---
 
-### Debuggers
-- GDB
-- FireBug
-- IDA PRO
-
-### Security Tools
-- Snort
-- Wireshark, tcpdump
-- openvpn, stunnel
-- pfSense
-- **iptables**
-
-### Data Recovery
-- dd, ddrescue
-- photorec, extundelete
-- foremost
-- SpinRite 6.0
-- scalpel
-- The Sleuth Kit (autopsy)
-
-### Password Cracking
-- L0phtCrack
-- John the Ripper
-- Cain and Abel
-- Aircrack-NG
-- Kismet (pre 2010)
-
-## Social Links
-- [Github](https://github.com/Derrekito)
-- [Codepen](https://codepen.io/Derrekito)
+Feel free to browse my repositories and don't hesitate to get in touch if you have any questions or ideas for collaboration!
