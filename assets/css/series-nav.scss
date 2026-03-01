@@ -1,0 +1,122 @@
+.series-nav {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border-color);
+
+  .series-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .series-label {
+    font-size: 0.85rem;
+    color: var(--text-muted-color);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .series-title {
+    font-weight: 600;
+    color: var(--heading-color);
+  }
+
+  .series-progress {
+    font-size: 0.85rem;
+    color: var(--text-muted-color);
+    margin-left: auto;
+  }
+
+  .series-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+
+    a {
+      font-size: 0.9rem;
+      color: var(--link-color);
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      .arrow {
+        opacity: 0.7;
+      }
+    }
+
+    .series-prev {
+      margin-right: auto;
+    }
+
+    .series-next {
+      margin-left: auto;
+    }
+  }
+
+  .series-toc {
+    summary {
+      cursor: pointer;
+      font-size: 0.85rem;
+      color: var(--text-muted-color);
+      user-select: none;
+
+      &:hover {
+        color: var(--link-color);
+      }
+    }
+
+    ol {
+      margin: 0.75rem 0 0 1.25rem;
+      padding: 0;
+      font-size: 0.9rem;
+
+      li {
+        margin: 0.25rem 0;
+
+        &.current {
+          font-weight: 600;
+          color: var(--heading-color);
+        }
+
+        a {
+          color: var(--link-color);
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .series-nav {
+    .series-header {
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .series-progress {
+      margin-left: 0;
+    }
+
+    .series-links {
+      flex-direction: column;
+      gap: 0.5rem;
+
+      .series-prev,
+      .series-next {
+        margin: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,285 @@
+// Rose Pine Moon theme overrides
+// https://rosepinetheme.com/palette
+
+html[data-mode='dark'],
+html:not([data-mode]) {
+  // Base colors
+  --main-bg: #232136;
+  --mask-bg: #2a273f;
+  --main-border-color: #393552;
+
+  // Sidebar
+  --sidebar-bg: #2a273f;
+  --sidebar-border-color: #393552;
+  --sidebar-muted-color: #6e6a86;
+  --sidebar-active-color: #e0def4;
+  --sidebar-hover-bg: #393552;
+  --nav-cursor-color: #c4a7e7;
+  --sidebar-btn-bg: #393552;
+
+  // Text
+  --text-color: #e0def4;
+  --text-muted-color: #908caa;
+  --heading-color: #e0def4;
+  --blockquote-border-color: #c4a7e7;
+  --blockquote-text-color: #908caa;
+
+  // Links
+  --link-color: #9ccfd8;
+  --link-underline-color: rgba(156, 207, 216, 0.4);
+
+  // Buttons
+  --button-bg: #393552;
+  --btn-border-color: #44415a;
+  --btn-backtotop-color: #e0def4;
+  --btn-backtotop-border-color: #44415a;
+  --btn-box-shadow: #232136;
+
+  // Cards
+  --card-bg: #2a273f;
+  --card-hovor-bg: #393552;
+  --card-shadow: rgba(35, 33, 54, 0.8);
+
+  // Code
+  --code-bg: #393552;
+  --code-color: #ea9a97;
+  --highlight-bg-color: #2a273f;
+  --highlighter-rouge-color: #ea9a97;
+  --inline-code-bg: rgba(57, 53, 82, 0.6);
+  --highlight-lineno-color: #6e6a86;
+  --language-border-color: #44415a;
+
+  // Prompts/Alerts
+  --prompt-info-bg: rgba(62, 143, 176, 0.2);
+  --prompt-info-icon-color: #3e8fb0;
+  --prompt-tip-bg: rgba(156, 207, 216, 0.2);
+  --prompt-tip-icon-color: #9ccfd8;
+  --prompt-warning-bg: rgba(246, 193, 119, 0.2);
+  --prompt-warning-icon-color: #f6c177;
+  --prompt-danger-bg: rgba(235, 111, 146, 0.2);
+  --prompt-danger-icon-color: #eb6f92;
+
+  // Tags
+  --tag-bg: #393552;
+  --tag-hover: #44415a;
+  --tag-border: #44415a;
+
+  // Categories
+  --categories-border: #393552;
+  --categories-hover-bg: #393552;
+  --categories-icon-hover-color: #c4a7e7;
+
+  // Archive
+  --timeline-color: #393552;
+  --timeline-node-bg: #c4a7e7;
+  --timeline-year-dot-color: #ea9a97;
+
+  // Footer
+  --footer-bg: #232136;
+  --footer-link-color: #9ccfd8;
+
+  // Search
+  --search-border-color: #393552;
+  --search-icon-color: #908caa;
+  --search-tag-bg: #393552;
+
+  // Input
+  --input-focus-border-color: #c4a7e7;
+
+  // Checkbox
+  --checkbox-color: #c4a7e7;
+  --checkbox-checked-color: #c4a7e7;
+
+  // TOC
+  --toc-highlight: #c4a7e7;
+
+  // Avatar ring
+  --avatar-border-color: #c4a7e7;
+
+  // Accent colors
+  --pin-color: #f6c177;
+  --read-time-color: #908caa;
+  --relate-post-date: #6e6a86;
+  --label-color: #908caa;
+
+  // Tables
+  --tb-border-color: #393552;
+  --tb-even-bg: #2a273f;
+  --tb-odd-bg: #232136;
+  --tb-head-bg: #393552;
+}
+
+// Sidebar tagline fix - allow wrapping
+#sidebar .site-subtitle {
+  white-space: normal;
+  word-wrap: break-word;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  padding: 0 0.5rem;
+}
+
+// Rose Pine Moon syntax highlighting for code blocks
+// Using Rose Pine base (#191724) for more contrast against Moon backgrounds
+.highlight {
+  background: #191724 !important;
+
+  // Remove dark backgrounds from all tokens
+  span {
+    background: transparent !important;
+  }
+
+  // Base text
+  .c, .c1, .cm, .cs { color: #6e6a86; font-style: italic; } // Comments
+  .cp { color: #c4a7e7; } // Preprocessor
+
+  .k, .kc, .kd, .kn, .kp, .kr, .kv { color: #3e8fb0; } // Keywords
+  .kt { color: #f6c177; } // Keyword type
+
+  .n { color: #e0def4; } // Name
+  .na { color: #c4a7e7; } // Name attribute
+  .nb { color: #eb6f92; } // Name builtin
+  .nc { color: #f6c177; } // Name class
+  .nd { color: #c4a7e7; } // Name decorator
+  .nf, .fm { color: #ea9a97; } // Name function
+  .ni { color: #e0def4; } // Name entity
+  .nn { color: #f6c177; } // Name namespace
+  .no { color: #eb6f92; } // Name constant
+  .nv, .vc, .vg, .vi, .vm { color: #ea9a97; } // Variables
+
+  .o, .ow { color: #3e8fb0; } // Operators
+
+  .p { color: #908caa; } // Punctuation
+
+  .s, .s1, .s2, .sb, .sc, .sh, .dl { color: #f6c177; } // Strings
+  .sd { color: #6e6a86; } // String doc
+  .se { color: #eb6f92; } // String escape
+  .si { color: #ea9a97; } // String interpolation
+  .sr { color: #9ccfd8; } // String regex
+  .ss { color: #f6c177; } // String symbol
+  .sx { color: #f6c177; } // String other
+
+  .m, .mf, .mh, .mi, .mo, .il { color: #ea9a97; } // Numbers
+
+  .bp { color: #eb6f92; } // Builtin pseudo
+  .gd { color: #eb6f92; } // Diff deleted
+  .gi { color: #9ccfd8; } // Diff inserted
+  .gh { color: #c4a7e7; font-weight: bold; } // Generic heading
+  .gu { color: #3e8fb0; font-weight: bold; } // Generic subheading
+  .ge { font-style: italic; } // Generic emphasis
+  .gs { font-weight: bold; } // Generic strong
+  .err { color: #eb6f92; } // Error
+
+  .w { color: #e0def4; } // Whitespace
+
+  // INI/Config file specific
+  .na { color: #9ccfd8; } // Property names (keys)
+  .s, .s2 { color: #f6c177; } // String values
+  .nn, .ni { color: #c4a7e7; } // Section headers [Section]
+  .l-Scalar-Plain, .p-Indicator { color: #e0def4; } // Plain values
+
+  // Line numbers
+  .lineno {
+    color: #6e6a86;
+    padding-right: 0.75rem;
+    border-right: 1px solid #393552;
+    margin-right: 0.75rem;
+  }
+}
+
+// Code block wrapper - using Rose Pine base for contrast
+div.highlighter-rouge {
+  background: #191724;
+  border: 1px solid #393552;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+// Remove fake macOS window buttons from code blocks, keep header
+.code-header::before,
+.highlight::before {
+  display: none !important;
+}
+
+// Center the code header text
+.code-header {
+  position: relative;
+  justify-content: center;
+  background: #2a273f;  // Moon surface - lighter than code content
+
+  // Keep copy button on the right
+  button:not(.code-collapse-btn) {
+    position: absolute;
+    right: 0.5rem;
+  }
+
+  // Collapse button on the left
+  .code-collapse-btn {
+    position: absolute;
+    left: 0.5rem;
+    background: transparent;
+    border: none;
+    color: #908caa;
+    cursor: pointer;
+    padding: 0.25rem;
+    font-size: 0.75rem;
+    transition: color 0.2s;
+
+    &:hover {
+      color: #e0def4;
+    }
+  }
+}
+
+// Collapsed code block
+.highlight.collapsed,
+pre.collapsed {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+}
+
+// Inline code
+code.highlighter-rouge {
+  background: #393552;
+  color: #ea9a97;
+}
+
+// Hide giscus fake window buttons
+.giscus-frame {
+  .gsc-header-title {
+    display: none;
+  }
+}
+
+// Table styling for Rose Pine Moon
+.table-wrapper > table {
+  thead {
+    border-bottom: solid 2px #44415a;
+    background-color: var(--tb-head-bg);
+
+    th {
+      color: #e0def4;
+      font-weight: 600;
+    }
+  }
+
+  tbody {
+    tr {
+      border-bottom: 1px solid var(--tb-border-color);
+
+      &:nth-child(2n) {
+        background-color: var(--tb-even-bg);
+      }
+
+      &:nth-child(2n + 1) {
+        background-color: var(--tb-odd-bg);
+      }
+
+      td {
+        color: #e0def4;
+      }
+    }
+  }
+}
